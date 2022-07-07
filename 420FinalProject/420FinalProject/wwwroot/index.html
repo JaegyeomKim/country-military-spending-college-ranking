@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>EducationEffectResult</title>
+    <style type="text/css" media="screen">
+
+        table {
+            table-layout: auto;
+            width: 800px;
+        }
+
+        table, th, td {
+            border: 1px black solid;
+        }
+    </style>
+    <link rel="stylesheet" text="text/css" href="css/site.css" />
+</head>
+<body>
+    <h2>Check the Top 10 World University Ranking</h2>
+    <div>
+        <input type="button" value="Top 10 World Institution" onclick="getTenUnversityandRankArray();" />
+    </div>
+    <div>
+        <ul id="topTenTable">
+        </ul>
+    </div>
+
+
+    <table id="table1">
+        <thead>
+            <tr>
+                <th>Institution</th>
+                <th>Ranking</th>
+            </tr>
+        </thead>
+    </table>
+
+
+
+
+
+    <br /><br /><br /><br />
+
+    <h2>Check National Defense Expenditure</h2>
+    <div>
+        <select id="countrySelect"></select>
+        <button id="query1">Check Defense Spending</button>
+        <!--<input type="button" value="Check Defense Spending" onclick="getDefenseData();" />-->
+    </div>
+    <div>
+        <ul id="DefenseTable">
+        </ul>
+    </div>
+
+    <table id="table2">
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>SpendMoney</th>
+            </tr>
+        </thead>
+    </table>
+
+
+    <br /><br /><br /><br />
+
+
+    <h2>Check Univertiy and Ranking</h2>
+    <div>
+        <select id="countrySelect2"></select>
+        <button id="query2">Check Defense Spending</button>
+        <!--<input type="button" value="Check University Score and Ranking" onclick="getUniversiyandScoreData();" />-->
+    </div>
+
+    <div>
+        <p id="totalScore"></p>
+    </div>
+
+    <table id="table3">
+        <thead>
+            <tr>
+                <th>Institution</th>
+                <th>Score</th>
+                <th>Ranking</th>
+            </tr>
+        </thead>
+    </table>
+
+    <br /><br /><br /><br />
+
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script src="/js/site.js"></script>
+</body>
+</html>
